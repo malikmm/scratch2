@@ -8,7 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.malik.controller"})
+//@SpringBootApplication
 public class ConsumeEndpoint2Application {
 
 	public static void main(String[] args) {
